@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+.App{background-color: #212529;}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,9 @@
     transform: rotate(360deg);
   }
 }
+.MovieCard{display:flex;flex-direction: column;align-items: center;background-color:#383d43; width: 35vh;border-radius: 10px;padding-left: 10px; }
+.MovieList{  display: flex;flex-wrap: wrap; gap: 20px; ;align-content: center;
+}
+.Addmovie{background-color: #212529;display: flex; justify-content: center; padding-bottom: 20px;}
+.modal-content{background-color: #383d43; color: white;}
+.btn-close{background-color: white;}
